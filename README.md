@@ -25,10 +25,10 @@ I personally recommend [Scoop](https://scoop.sh/), a package manager for Windows
 Scoop will install packages and apps, and allow you to use these apps on the terminal and elsewhere.
 
 > Scoop Install (from scoop.sh) {Terminal}
-```
+> ```
 > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
 > irm get.scoop.sh | iex
-```
+> ```
 
 > Scoop FFMPEG Install {Terminal}
   scoop install ffmpeg
