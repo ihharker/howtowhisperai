@@ -71,7 +71,7 @@ Congratulations! Now we can get started with some Python code.
 ## WhisperAI Python Usage
 
 Below is an example script to transcribe every .wav in the current directory.
-```
+```python
 import whisper
 import os
 
