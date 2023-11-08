@@ -1,10 +1,10 @@
-# How do I Whisper AI?
+# How do Whisper AI?
 This repo details how to install and get started with Whisper AI for transcription.
 
 ## Python Setup
 This guide assumes you are using one of the major Python versions 3.11, 3.10, or 3.9.  
 
-> WhisperAI does not currently support 3.12!
+> ¡¡¡WhisperAI does not currently support 3.12!!!
 
 You can verify you have a correct version in a terminal as follows
 
@@ -67,5 +67,49 @@ The `-U` flag here is used for installing the latest `openai-whisper` package, i
 installation is outdated.
 
 Congratulations! Now we can get started with some Python code.
+
+## WhisperAI Python Usage
+
+Below is an example script to transcribe every .wav in the current directory.
+```
+import whisper
+import os
+
+model = whisper.load_model("small.en")
+
+for infile in os.listdir():
+    # f = filename
+    # e = extenstion (.wav)
+    f, e = os.path.splitext(infile)
+
+    # if guard
+    # ignore any files not ending in .wav 
+    if (e != ".wav"):
+        continue
+
+    outfileName = f + ".txt"
+    outfile = open(outfileName, 'w')
+
+    result = model.transcribe(infile)
+    # print(result["text"])
+    print(result["text"], file=outfile)
+```
+
+## WhisperAI Commmand-Line Usage
+
+Transcribe all files ending in .wav in the current directory.
+```
+whisper ./*.wav --model small.en -f txt
+```
+
+## Further Research
+
+Audio files need to be trimmed, Whisper will interpret silence as garbage  
+and the garbage persists into future transcription like a feedback loop
+
+Model tiny.en may not be enough for our usage, compare models base.en and small.en
+
+I can write a script to match the Alexa script, the rest being the participant  
+This script would also format the ai output
 
 
