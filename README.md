@@ -31,7 +31,9 @@ Scoop will install packages and apps, and allow you to use these apps on the ter
 > ```
 
 > Scoop FFMPEG Install {Terminal}
-> `scoop install ffmpeg`
+> `
+> scoop install ffmpeg
+> `
 
 ### Mac FFMPEG Install
 
@@ -39,13 +41,19 @@ I personally recommend [Homebrew](https://brew.sh/), a package manager for Mac.
 Brew will install packages and apps, and allow you to use these apps on the terminal and elsewhere.
 
 > Brew Install (from brew.sh) {Terminal}
-> `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+> ```
+> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+> ```
 
 > Brew FFMPEG Install {Terminal}
-> `brew install ffmpeg`
+> `
+> brew install ffmpeg
+> `
 
 ### Ubuntu FFMPEG Install
 
-> `sudo apt update && sudo apt install ffmpeg`
+> `
+> sudo apt update && sudo apt install ffmpeg
+> `
 
 
