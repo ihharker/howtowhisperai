@@ -31,9 +31,9 @@ Scoop will install packages and apps, and allow you to use these apps on the ter
 > ```
 
 > Scoop FFMPEG Install {Terminal}
-> `
+> ```
 > scoop install ffmpeg
-> `
+> ```
 
 ### Mac FFMPEG Install
 
@@ -46,14 +46,14 @@ Brew will install packages and apps, and allow you to use these apps on the term
 > ```
 
 > Brew FFMPEG Install {Terminal}
-> `
+> ```
 > brew install ffmpeg
-> `
+> ```
 
 ### Ubuntu FFMPEG Install
 
-> `
+> ```
 > sudo apt update && sudo apt install ffmpeg
-> `
+> ```
 
 
