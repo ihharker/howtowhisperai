@@ -18,6 +18,7 @@ You can verify you have a correct version in a terminal as follows
 ## Installation
 
 WhisperAI depends on [FFMPEG](https://ffmpeg.org/), which needs to be installed on your system.
+FFmpeg is used here for converting various types of media into a common format the AI can understand.
 
 ### Windows FFMPEG Install
 
@@ -55,5 +56,16 @@ Brew will install packages and apps, and allow you to use these apps on the term
 > ```
 > sudo apt update && sudo apt install ffmpeg
 > ```
+
+### WhisperAI Install
+
+Once you've installed ffmpeg and python, you can install Whisper AI using pip in the terminal!
+> ```
+> pip install -U openai-whisper
+> ```
+The `-U` flag here is used for installing the latest `openai-whisper` package, in the event your local  
+installation is outdated.
+
+Congratulations! Now we can get started with some Python code.
 
 
