@@ -58,20 +58,16 @@ Brew will install packages and apps, and allow you to use these apps on the term
 > ```
 
 ## WhisperAI Install
-
-### Windows WhisperAI Install
 Once you've installed ffmpeg and python, you can install Whisper AI using pip in the terminal!
 I had to use the 'py' command here
 > ```
-> py -m pip install -U openai-whisper
-> ```
-The `-U` flag here is used for installing the latest `openai-whisper` package, in the event your local installation is outdated.
-
-### General WhisperAI Install
-Once you've installed ffmpeg and python, you can install Whisper AI using pip in the terminal!
-> ```
 > pip install -U openai-whisper
 > ```
+or if you're running Windows,
+> ```
+> py -m pip install -U openai-whisper
+> ```
+
 The `-U` flag here is used for installing the latest `openai-whisper` package, in the event your local installation is outdated.
 
 Congratulations! Now we can get started with some Python code.
