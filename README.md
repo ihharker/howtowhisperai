@@ -109,6 +109,10 @@ Transcribe all files ending in .wav in the current directory.
 ```
 whisper ./*.wav --model small.en -f txt
 ```
+or if you're running Windows,
+```
+py -m whisper ./*.wav --model small.en -f txt
+```
 
 ## Further Research
 
