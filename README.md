@@ -2,18 +2,16 @@
 This repo details how to install and get started with Whisper AI for transcription.
 
 ## Python Setup
-This guide assumes you are using one of the major Python versions 3.11, 3.10, or 3.9.  
-
-> ¡¡¡WhisperAI does not currently support 3.12!!!
+This guide assumes you are using one of the major Python versions 3.12 or 3.11.  
 
 You can verify you have a correct version in a terminal as follows
 
   ```
   python -V
-  Python 3.11.6
+  Python 3.12.3
   ```
 
-[Python 3.11 Download](https://www.python.org/downloads/release/python-3116/)
+[Python 3.12.3 Download](https://www.python.org/downloads/release/python-3123/)
 
 ## FFMPEG Installation
 
